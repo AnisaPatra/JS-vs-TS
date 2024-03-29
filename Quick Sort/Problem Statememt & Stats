@@ -1,0 +1,8 @@
+Type: Sorting: 
+Problem: Sort a list of numbers
+Solution: Consider a element from the array as pivot, do comparision of other nos with pivot and place them on left if they are samller than pivot and on right if they are greater.
+          Then concat the left part, pivot and right part accordingly.
+          Keep repeating these steps recurisively.
+          Here we are considering first element to be the pivot.
+Time Complexity: Average case - O (n log n) | Worst case - O (n ^ 2)
+Space Complexity: Average case - O (log n) | Worst case - O (n)
